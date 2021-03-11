@@ -40,12 +40,11 @@
 export default {
   name: "App",
  data(){
- return {
-    drawer: false,
-    group: null,
+  return {
+      drawer: false,
+      group: null,
   }
  },
-
   watch: {
     group() {
       this.drawer = false;
