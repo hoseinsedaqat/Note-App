@@ -39,12 +39,12 @@
 <script>
 export default {
   name: "App",
- data(){
-  return {
+  data() {
+    return {
       drawer: false,
       group: null,
-  }
- },
+    };
+  },
   watch: {
     group() {
       this.drawer = false;
